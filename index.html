@@ -89,6 +89,20 @@
             </div>
           </div>
         </div>
+         <div class="col-md-3 no-float">
+              <div class="row-container">
+                    <div class="row-header">
+                      <span class="trn">trades</span>
+                    </div>
+                    <div class="row-box height7 scroll">
+                      <div id="trades"></div>
+                    </div>
+                    <div class="row-box height2 scroll">
+                      <div id="updates">
+                      </div>
+                    </div>
+              </div>
+         </div>       
         <div class="col-md-4 no-float">
           <div class="row-container">
             <div class="row-header trn div-price-01">price_chart</div>
@@ -149,20 +163,6 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 no-float">
-          <div class="row-container">
-            <div class="row-header">
-              <span class="trn">trades</span>
-            </div>
-            <div class="row-box height7 scroll">
-              <div id="trades"></div>
-            </div>
-            <div class="row-box height2 scroll">
-              <div id="updates">
-              </div>
-            </div>
-        </div>
-      </div>
     </div>
 </div>
     <div id="buyTrade"></div>
@@ -231,12 +231,6 @@
         embedTwitter('dark')
       })
     </script>
-   <script>
-   //dato exchange
- $(document).ready(function(){ 
-   $('#orderBookMid').remove(); 
 
-});
-   </script> 
   </body>
 </html>
