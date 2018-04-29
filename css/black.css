@@ -715,5 +715,6 @@ fieldset[disabled] .form-control {
 
 /* Dato Exchange Front End code*/
 .div-price-01, .div-price-02, .div-price-03 { display:none; }
+.div-volume-01, .div-volume-02{ display:none;}
 .row-box.height-e-01 {height: calc(250vh - 298px);
 }
