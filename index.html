@@ -62,33 +62,63 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-2 no-float">
-          <div class="row-container">
-            <div class="row-header trn">balance</div>
-            <div id="balance"></div>
-            <div class="row-header trn div-volume-01">volume</div>
-            <div id="volume" class="div-volume-02"></div>
-          </div>
-        </div>
-        <div class="col-md-3 no-float">
-          <div class="row-container">
-            <div class="row-header trn">order_book</div>
-            <div id="orders"></div>
-            <div class="row-header trn">new_order</div>
-            <div class="row-box nav-header">
-              <ul class="nav nav-tabs two columns" role="tablist">
-                <li role="presentation" class="active"><a href="#buy" aria-controls="buy" role="tab" data-toggle="tab" class="trn">buy</a></li>
-                <li role="presentation"><a href="#sell" aria-controls="sell" role="tab" data-toggle="tab" class="trn">sell</a></li>
-              </ul>
-            </div>
-            <div class="row-box height4 padding">
-              <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="buy"></div>
-                <div role="tabpanel" class="tab-pane" id="sell"></div>
+         <div class="col-md-5 no-float">
+              <div class="row-container">
+                        <div class="col-md-2 no-float">
+                          <div class="row-container">
+                            <div class="row-header trn">balance</div>
+                            <div id="balance"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-2 no-float">
+                          <div class="row-container">
+                            <div class="row-header trn">order_book</div>
+                            <div id="orders"></div>
+                          </div>
+                        </div>
               </div>
-            </div>
-          </div>
+               <div class="row-container">
+                        <div class="col-md-1 no-float">
+                          <div class="row-container">
+                            <div class="row-header trn row-new-order">new_order</div>
+                          </div>
+                        </div> 
+                        <div class="clearfix"></div>             
+                        <div class="col-md-1 no-float">
+                          <div class="row-container">
+                            <div class="row-header trn div-volume-01">volume</div>
+                            <div id="volume" class="div-volume-02"></div>
+                            <div class="row-box nav-header">
+                              <ul class="nav nav-tabs one columns" role="tablist">
+                                <li role="presentation" class="active"><a href="#buy" aria-controls="buy" role="tab" data-toggle="tab" class="trn">buy</a></li>
+                              </ul>
+                            </div>
+                            <div class="row-box height4 padding">
+                              <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="buy"></div>
+                                <div role="tabpanel" class="tab-pane" id="sell"></div>
+                              </div>
+                            </div>                           
+                          </div>
+                        </div>
+                        <div class="col-md-1 no-float">
+                          <div class="row-container">
+                            <div class="row-box nav-header">
+                              <ul class="nav nav-tabs one columns" role="tablist">
+                                <li role="presentation" class="active"><a href="#sell" aria-controls="sell" role="tab" data-toggle="tab" class="trn">sell</a></li>
+                              </ul>
+                            </div>
+                            <div class="row-box height4 padding">
+                              <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="buy"></div>
+                                <div role="tabpanel" class="tab-pane" id="sell"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+              </div>             
         </div>
+             
          <div class="col-md-3 no-float">
               <div class="row-container">
                     <div class="row-header">
