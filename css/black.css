@@ -102,6 +102,7 @@ a.navbar-brand {
 }
 
 .row-header {
+display:none;
   width: 100%;
   padding: 8px;
   height: 38px;
