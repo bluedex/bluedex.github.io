@@ -1016,7 +1016,7 @@
     { "addr": "0xff603f43946a3a28df5e6a73172555d8c8b02386", "name": "RNT", "decimals": 18 },
     { "addr": "0xffc63b9146967a1ba33066fb057ee3722221acf0", "name": "A", "decimals": 18 },
     { "addr": "0xffe8196bc259e8dedc544d935786aa4709ec3e64", "name": "HDG", "decimals": 18 },
-    { "addr": "0x2c02c801a3324b371ad285c64af372ff1e23f460", "name": "CALL", "decimals": 18 },
+    { "addr": "0x2c02c801a3324b371ad285c64af372ff1e23f460", "name": "OCALL", "decimals": 18 },
     { "addr": "0x6c28f85eb1dbc7651ce02f7af1f29890ad084b94", "name": "CALLG", "decimals": 18 }
   ],
   "defaultPair": { "token": "DAI", "base": "ETH" }
